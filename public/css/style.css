@@ -50,3 +50,128 @@ p {
     line-height: 1.5;
 }
 
+/* Base link styles */
+a {
+    text-decoration: none;  /* Remove the underline */
+    color: #007BFF;         /* Choose a softer blue */
+    font-weight: bold;      /* Make the text bold for emphasis */
+}
+
+/* Hover state */
+a:hover {
+    text-decoration: underline; /* Add underline when hovered */
+    color: #0056b3;             /* Darker blue on hover */
+}
+
+/* Visited links */
+a:visited {
+    color: #6c757d; /* Subtle gray for visited links */
+}
+
+/* Active state (optional) */
+a:active {
+    color: #003f7f;
+}
+
+
+/* General container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Teaching Images Section */
+.teaching-images {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    gap: 30px; /* Space between images */
+}
+
+.image-container {
+    position: relative;
+    width: 100%; /* Take full container width */
+    max-width: 500px; /* Limit maximum size */
+    height: 300px; /* Fixed height for all images */
+    margin: 0 auto; /* Center images */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Maintain aspect ratio and crop to fit */
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect: zoom-in on the image */
+.image-container:hover img {
+    transform: scale(1.1);
+}
+
+/* Hover Menu */
+.hover-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease;
+    text-align: center;
+    padding: 10px;
+}
+
+.image-container:hover .hover-menu {
+    opacity: 1; /* Show menu on hover */
+}
+
+/* Hover Menu Styling */
+.hover-menu h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hover-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hover-menu ul li {
+    margin: 5px 0;
+}
+
+.hover-menu ul li a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hover-menu ul li a:hover {
+    text-decoration: underline;
+}
+.hover-menu p {
+    font-size: 0.8em;
+    margin: 10px 15px 0 15px; /* Adds left and right margins of 15px */
+    color: #FFD700;
+    text-align: justify; /* Justifies the text */
+}
+.hover-menu a {
+    font-size: 1em;
+    margin: 10px 0 0 0;
+    color: #f8fdf9; /* Highlighted text for the third image */
+}
