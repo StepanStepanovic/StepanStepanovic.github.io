@@ -88,81 +88,74 @@ h1 {
 
 /* Teaching Images Section */
 .teaching-images {
-    display: flex;
-    flex-direction: column; /* Stack images vertically */
-    gap: 30px; /* Space between images */
+    display: flex; /* Defines a flexible container (other options: block, inline, grid, inline-flex, inline-grid) */
+    flex-direction: column; /* Stacks items vertically (other options: row, row-reverse, column-reverse) */
+    gap: 30px; /* Space between child elements (numeric values only, can use margin as an alternative) */
 }
 
 .image-container {
-    position: relative;
-    width: 100%; /* Take full container width */
-    max-width: 500px; /* Limit maximum size */
-    height: 300px; /* Fixed height for all images */
-    margin: 0 auto; /* Center images */
-    overflow: hidden;
-    border-radius: 10px;
+    position: relative; /* Positions elements relative to itself (other options: static, absolute, fixed, sticky) */
+    width: 100%; /* Full width of parent (alternatives: auto, fit-content, min-content, max-content) */
+    max-width: 500px; /* Limits maximum width (alternatives: none, percentage, viewport units like vw) */
+    height: 300px; /* Fixed height for uniformity (alternatives: auto, inherit, fit-content, viewport units) */
+    margin: 0 auto; /* Centers element horizontally (other values: auto, percentage, length values, inherit) */
+    overflow: hidden; /* Hides content outside the box (other options: visible, scroll, auto, clip) */
+    border-radius: 10px; /* Rounds corners (other options: 0, inherit, percentages like 50%) */
 }
 
 .image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* Maintain aspect ratio and crop to fit */
-    border-radius: 10px;
-    transition: transform 0.3s ease;
+    width: 100%; /* Fills container width (alternatives: auto, max-content, min-content, fit-content) */
+    height: 100%; /* Fills container height (alternatives: auto, max-content, min-content, fit-content) */
+    object-fit: contain; /* Fits image within the container (other options: fill, cover, scale-down, none) */
+    border-radius: 10px; /* Matches container for consistent design (alternatives: 0, inherit, percentages) */
+    transition: transform 0.3s ease; /* Smooth transformation (other options: linear, ease-in, ease-out, step-start) */
 }
 
-/* Hover effect: zoom-in on the image */
 .image-container:hover img {
-    transform: scale(1.1);
+    transform: scale(1.1); /* Zooms image on hover (other options: rotate, translate, skew, scale-down) */
 }
 
-/* Hover Menu */
 .hover-menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0; /* Hidden by default */
-    transition: opacity 0.3s ease;
-    text-align: center;
-    padding: 10px;
+    position: absolute; /* Positions menu relative to container (alternatives: static, relative, fixed, sticky) */
+    top: 0; /* Anchors to top edge (alternatives: auto, percentages, length values, inherit) */
+    left: 0; /* Anchors to left edge (alternatives: auto, percentages, length values, inherit) */
+    width: 100%; /* Matches container width (alternatives: auto, fit-content, percentages, viewport units) */
+    height: 100%; /* Matches container height (alternatives: auto, fit-content, percentages, viewport units) */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background (alternatives: rgb, hex, named colors) */
+    color: #fff; /* Text color (alternatives: hex, rgb, hsl, named colors) */
+    display: flex; /* Flexible layout (other options: block, inline, grid, inline-flex, inline-grid) */
+    flex-direction: column; /* Stacks items vertically (other options: row, row-reverse, column-reverse) */
+    justify-content: center; /* Centers items vertically (other options: start, end, space-between, space-around) */
+    align-items: center; /* Centers items horizontally (other options: start, end, stretch, baseline) */
+    opacity: 0; /* Hidden by default (alternatives: values between 0 and 1, inherit) */
+    transition: opacity 0.3s ease; /* Smooth fade-in effect (other options: all, specific properties, inherit) */
+    text-align: center; /* Centers text horizontally (alternatives: left, right, justify, start, end) */
+    padding: 10px; /* Space inside menu (numeric only, can use percentage, inherit, or auto for padding collapse) */
 }
 
 .image-container:hover .hover-menu {
-    opacity: 1; /* Show menu on hover */
+    opacity: 1; /* Reveals menu on hover (alternatives: 0-1, inherit) */
 }
 
-/* Hover Menu Styling */
 .hover-menu h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    font-weight: bold;
+    font-size: 1.5em; /* Defines size of text (alternatives: px, %, vw/vh, calc, inherit) */
+    margin-bottom: 10px; /* Adds spacing below the title (numeric only, alternatives: inherit, auto) */
+    font-weight: bold; /* Makes text bold (alternatives: normal, lighter, bolder, or numeric values) */
 }
 
 .hover-menu ul {
-    list-style: none;
-    padding: 0;
-}
-
-.hover-menu ul li {
-    margin: 5px 0;
+    list-style: none; /* Removes bullet points (alternatives: disc, circle, square, inherit) */
+    padding: 0; /* Removes default padding (numeric only, alternatives: inherit, auto) */
 }
 
 .hover-menu ul li a {
-    color: #FFD700;
-    text-decoration: none;
-    font-weight: bold;
+    color: #FFD700; /* Link color (alternatives: hex, rgb, hsl, named colors) */
+    text-decoration: none; /* Removes underline (alternatives: underline, overline, line-through, inherit) */
+    font-weight: bold; /* Makes links bold (alternatives: normal, lighter, bolder, numeric values) */
 }
 
 .hover-menu ul li a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Adds underline on hover (alternatives: none, overline, line-through) */
 }
 .hover-menu p {
     font-size: 0.8em;
@@ -171,7 +164,7 @@ h1 {
     text-align: justify; /* Justifies the text */
 }
 .hover-menu a {
-    font-size: 1em;
+    font-size: 1em;\
     margin: 10px 0 0 0;
     color: #f8fdf9; /* Highlighted text for the third image */
 }
