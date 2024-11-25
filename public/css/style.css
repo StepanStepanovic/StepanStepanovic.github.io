@@ -1,5 +1,7 @@
 body {
-    margin: 0;
+    margin: 20px; /* Adds space around the entire page */
+    padding: 10px; /* Optional: Adds inner space inside the body */
+    box-sizing: border-box; /* Ensures padding doesn’t affect total width/height */
     font-family: 'Lato', Arial, sans-serif; /* Fallback fonts added for safety */
     background-color: #ffffff;
     color: #333;
@@ -91,6 +93,8 @@ h1 {
     display: flex; /* Defines a flexible container (other options: block, inline, grid, inline-flex, inline-grid) */
     flex-direction: column; /* Stacks items vertically (other options: row, row-reverse, column-reverse) */
     gap: 30px; /* Space between child elements (numeric values only, can use margin as an alternative) */
+
+
 }
 
 .image-container {
@@ -164,7 +168,147 @@ h1 {
     text-align: justify; /* Justifies the text */
 }
 .hover-menu a {
-    font-size: 1em;\
+    font-size: 1em;
     margin: 10px 0 0 0;
     color: #f8fdf9; /* Highlighted text for the third image */
+}
+
+.header {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    justify-content: center; /* Centers content horizontally */
+    gap: 15px; /* Adds space between name and icons */
+}
+
+.header h1 {
+    margin: 0; /* Remove extra margin around the heading */
+    font-size: 32px; /* Adjust as needed */
+}
+
+.social-links {
+    display: flex; /* Ensure the icons are inline */
+    gap: 10px; /* Space between the icons */
+}
+
+.social-links i {
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    font-size: 24px;
+    transition: transform 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.social-links i:hover {
+    transform: scale(1.2); /* Enlarge slightly on hover */
+    color: #0077b5; /* Change color on hover */
+    border-color: #0077b5;
+}
+
+.publications {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+    gap: 20px; /* Space between rows and columns */
+    justify-items: center; /* Centers items horizontally within each cell */
+    margin: 20px auto; /* Centers the grid and adds margin around it */
+    max-width: 1200px; /* Limits the grid width */
+}
+
+.image-container-pub {
+    position: relative;
+    width: 100%; /* Full width of the grid cell */
+    max-width: 250px; /* Ensures consistent max size for images */
+    aspect-ratio: 4 / 3; /* Maintains a consistent aspect ratio */
+    overflow: hidden; /* Ensures images don't overflow the container */
+    border-radius: 10px; /* Optional: Rounds the corners */
+    background-color: #ffffff; /* Optional: Placeholder background for images */
+}
+
+.image-container-pub img {
+    width: 100%; /* Ensures the image fills the container width */
+    height: 100%; /* Ensures the image fills the container height */
+    object-fit: contain; /* Centers and scales the image while maintaining aspect ratio */
+    object-position: center; /* Centers the image inside the container */
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+}
+
+.image-container-pub:hover img {
+    transform: scale(1.1); /* Adds a zoom effect on hover */
+}
+
+.image-container-pub .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-container-pub:hover .logo {
+    opacity: 1;
+}
+
+.image-container-pub:hover .toc {
+    opacity: 0;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.title:hover {
+    color: #0077b5;
+}
+
+
+.publications {
+    text-align: center;
+    margin-top: 20px; /* Add space above the publication grid */
+    margin-left: auto; /* Center the grid horizontally */
+    margin-right: auto;
+    max-width: 1200px; /* Optional: Limit the width of the publication grid */
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px; /* Add space between the top of the page and the filters */
+    margin-bottom: 20px; /* Add space below the filters */
+    text-align: center;
+}
+
+.keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.keyword {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.keyword:hover {
+    background-color: #0077b5;
+    color: white;
+}
+
+#yearFilter {
+    width: 30%; /* Reduce the width to make it smaller */
+    padding: 5px; /* Adjust padding to reduce the overall size */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto; /* Center the input box horizontally */
+    display: block; /* Ensure it's treated as a block-level element for centering */
 }

@@ -5,24 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Webpage</title>
     <!-- Link to CSS -->
-    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        p {
+            margin-bottom: 20px;
+            color: #555;
+        }
+        img {
+            display: block;
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <img src="../assets/img/profile.jpg" alt="Profile Picture" class="profile-image">
-        <h1>My Name</h1>
-        <nav>
-            <ul>
-                <li><a href="teaching.html">Teaching</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-        <p>Hello! I'm [Your Name], a [Your Profession]. I enjoy [brief description].</p>
+        <h1>Research Projects</h1>
+        
+        <p>
+            My research bridges cheminformatics, molecular modeling, and machine learning to unravel key patterns in mass spectrometry (MS) data from techniques such as CID, EAD, UVPD, and DMS. By decoding small molecule and peptide behavior, I explore how molecular structures influence adduct formation, ion mobility, and fragmentation profiles across diverse MS settings. This work expands the potential applications of multiomics studies, offering deeper insights into molecular systems.
+
+        </p>
+        <img src="../assets/img/ML_MS.jpg" alt="ML_MS" class="ml_ms">
+        
+        <p>
+            In molecular modeling, I employ density functional theory (DFT) and energy decomposition analysis (EDA) to rationalize adduct formation. Additionally, I use QCXMS to gain detailed mechanistic insights into electron ionization (EI) and collision-induced dissociation (CID) fragmentation processes.
+
+        </p>
+        <img src="../assets/img/eda.jpg" alt="qcxms" class="qcxms">
+        
+        <p>
+            I am also involved in machine learning-driven computational toxicology projects in collaboration with colleagues in Belgrade. These studies connect molecular structures and physicochemical properties with observed cytotoxicity, utilizing cheminformatics to advance predictive models of biological activity.
+
+        </p>
+        <img src="../assets/img/ic50.jpg" alt="ic50" class="ic50">
+        
+        <p>
+            In computational catalysis, I currently explore catalytic cycles for innovative single-atom molecular editing and transition metal-based methodologies. Notably, I have uncovered cases where the highest energy barrier in the catalytic cycle is not the rate-limiting step, revealing unexpected insights into reaction mechanisms.
+
+        </p>
+        <img src="../assets/img/pes.jpg" alt="pes" class="pes">
     </div>
-    <!-- Link to JavaScript -->
     <script src="../js/script.js"></script>
 </body>
 </html>
