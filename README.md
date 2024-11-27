@@ -6,7 +6,6 @@ This is my personal webpage, built with HTML, CSS, and JavaScript, and hosted on
 
 - Simple and responsive design
 - Links to teaching, projects, and about pages
-- Profile image with rounded styling
 - Minimal and clean layout
 
 ## File Structure
