@@ -1,0 +1,66 @@
+Ligand,coordination,A,B,C,D,A+B+C+D,smi
+DPEphos,1,67,1,149,42,258,C1(OC2=CC=CC=C2P(C3=CC=CC=C3)C4=CC=CC=C4)=CC=CC=C1P(C5=CC=CC=C5)C6=CC=CC=C6
+Xantphos,1,39,17,19,157,232,CC1(C)C2=C(OC3=C1C=CC=C3P(C4=CC=CC=C4)C5=CC=CC=C5)C(P(C6=CC=CC=C6)C7=CC=CC=C7)=CC=C2
+"4,6-Bis(diphenylphosphino)phenoxazine",1,43,15,27,157,243,C1(NC2=C(C(P(C3=CC=CC=C3)C4=CC=CC=C4)=CC=C2)O5)=C5C(P(C6=CC=CC=C6)C7=CC=CC=C7)=CC=C1
+"4,5-Bis(dicyclohexylphosphino)-9,9-dimethylxanthene",1,51,11,29,151,242,CC1(C)C2=C(OC3=C1C=CC=C3P(C4CCCCC4)C5CCCCC5)C(P(C6CCCCC6)C7CCCCC7)=CC=C2
+"9,9-Dimethyl-4,5-bis(di-t-butylphosphino)xanthene",1,41,3,44,142,230,CC(P(C1=CC=CC2=C1OC3=C(C=CC=C3P(C(C)(C)C)C(C)(C)C)C2(C)C)C(C)(C)C)(C)C
+SPANphos,1,55,1,164,37,257,CC1=CC(P(C2=CC=CC=C2)C3=CC=CC=C3)=C(O4)C(C(C)(C)CC54CC(C)(C)C6=CC(C)=CC(P(C7=CC=CC=C7)C8=CC=CC=C8)=C6O5)=C1
+DBFphos,1,20,0,137,3,160,C12=C(P(C3=CC=CC=C3)C4=CC=CC=C4)C=CC=C1C5=CC=CC(P(C6=CC=CC=C6)C7=CC=CC=C7)=C5O2
+"6,8-bis(diphenylphosphaneyl)dinaphtho[2,1-b:1',2'-d]furan (U-DNFphos)",1,21,0,149,3,173,C12=C(P(C3=CC=CC=C3)C4=CC=CC=C4)C=C5C(C=CC=C5)=C1C6=C7C(C=CC=C7)=CC(P(C8=CC=CC=C8)C9=CC=CC=C9)=C6O2
+dppm,1,70,5,62,113,249,C1(P(CP(C2=CC=CC=C2)C3=CC=CC=C3)C4=CC=CC=C4)=CC=CC=C1
+dppe,1,39,17,18,155,229,P(CCP(C1=CC=CC=C1)C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4
+dppp,1,45,13,17,162,237,P(CCCP(C1=CC=CC=C1)C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4
+dppb,1,49,2,104,81,235,P(CCCCP(C1=CC=CC=C1)C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4
+dpppent,1,54,3,115,70,241,P(CCCCCP(C1=CC=CC=C1)C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4
+dpphex,1,33,2,132,38,204,P(CCCCCCP(C1=CC=CC=C1)C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4
+dppoct,1,52,1,153,48,255,P(CCCCCCCCP(C1=CC=CC=C1)C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4
+dcype,1,30,21,5,165,221,P(CCP(C1CCCCC1)C2CCCCC2)(C3CCCCC3)C4CCCCC4
+dArFpe,1,9,6,31,79,125,FC1=C(F)C(F)=C(F)C(F)=C1P(CCP(C2=C(F)C(F)=C(F)C(F)=C2F)C3=C(F)C(F)=C(F)C(F)=C3F)C4=C(F)C(F)=C(F)C(F)=C4F
+"(R,R)-NORPHOS ",1,50,13,22,156,241,C1(C2)[C@@H](P(C3=CC=CC=C3)C4=CC=CC=C4)[C@H](P(C5=CC=CC=C5)C6=CC=CC=C6)C2C=C1
+"cis-1,2-Bis(diphenylphosphino)ethylene",1,34,20,12,171,237,P(/C=C\P(C1=CC=CC=C1)C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4
+"trans-1,2-Bis(diphenylphosphino)ethylene",1,59,1,180,16,257,P(/C=C/P(C1=CC=CC=C1)C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4
+"1,2-Bis(diphenylphosphino)benzene",1,27,23,6,169,224,C1(P(C2=CC=CC=C2)C3=CC=CC=C3)=CC=CC=C1P(C4=CC=CC=C4)C5=CC=CC=C5
+"1,8-(Diphenylphosphino)naphthalene",1,37,21,12,172,242,C12=CC=CC(P(C3=CC=CC=C3)C4=CC=CC=C4)=C1C(P(C5=CC=CC=C5)C6=CC=CC=C6)=CC=C2
+"1,4-bis(diphenylphosphaneyl)benzene",1,46,1,199,13,260,C1(P(C2=CC=CC=C2)C3=CC=CC=C3)=CC=C(P(C4=CC=CC=C4)C5=CC=CC=C5)C=C1
+BISBI,1,65,1,159,42,268,C1(P(CC2=CC=CC=C2C3=CC=CC=C3CP(C4=CC=CC=C4)C5=CC=CC=C5)C6=CC=CC=C6)=CC=CC=C1
+VNAphos,1,62,4,84,100,250,C1(P(CC2=CC3=C(C=CC=C3)C=C2C4=CC(C=CC=C5)=C5C=C4CP(C6=CC=CC=C6)C7=CC=CC=C7)C8=CC=CC=C8)=CC=CC=C1
+"1,3-Bis(diphenylphosphinomethyl)benzene",1,62,4,88,99,253,C1(CP(C2=CC=CC=C2)C3=CC=CC=C3)=CC=CC(CP(C4=CC=CC=C4)C5=CC=CC=C5)=C1
+"(R,R)-DIOP",1,64,1,107,81,254,CC1(C)O[C@@H](CP(C2=CC=CC=C2)C3=CC=CC=C3)[C@H](CP(C4=CC=CC=C4)C5=CC=CC=C5)O1
+"1,3-Bis[(di-tert-butylphosphino)oxy]benzene",1,52,5,90,97,244,CC(P(OC1=CC(OP(C(C)(C)C)C(C)(C)C)=CC=C1)C(C)(C)C)(C)C
+BIPHEP,1,59,2,137,48,247,C1(C2=C(P(C3=CC=CC=C3)C4=CC=CC=C4)C=CC=C2)=C(P(C5=CC=CC=C5)C6=CC=CC=C6)C=CC=C1
+rac-BINAP,1,49,11,37,141,237,C12=CC=CC=C1C=CC(P(C3=CC=CC=C3)C4=CC=CC=C4)=C2C5=C(P(C6=CC=CC=C6)C7=CC=CC=C7)C=CC8=CC=CC=C58
+"(S)-(-)-2,2'-Bis[di(3,5-xylyl)phosphino]-1,1'-binaphthyl",1,46,15,23,156,240,CC1=CC(P(C2=CC(C)=CC(C)=C2)C3=C(C4=C(P(C5=CC(C)=CC(C)=C5)C6=CC(C)=CC(C)=C6)C=CC7=CC=CC=C47)C8=CC=CC=C8C=C3)=CC(C)=C1
+(S)-DTBM-SEGPHOS,1,47,13,38,144,242,CC(C)(C)C1=CC(P(C2=CC(C(C)(C)C)=C(OC)C(C(C)(C)C)=C2)C3=[C@]([C@]4=C(OCO5)C5=CC=C4P(C6=CC(C(C)(C)C)=C(OC)C(C(C)(C)C)=C6)C7=CC(C(C)(C)C)=C(OC)C(C(C)(C)C)=C7)C8=C(OCO8)C=C3)=CC(C(C)(C)C)=C1OC
+dppf,1,57,3,84,101,244,[Fe].[CH]1[CH][CH][C]([CH]1)P(c2ccccc2)c3ccccc3.[CH]4[CH][CH][C]([CH]4)P(c5ccccc5)c6ccccc6
+"1,1?-Bis(diisopropylphosphino)ferrocene",1,53,9,40,146,248,[Fe].CC(C)P([C]1[CH][CH][CH][CH]1)C(C)C.CC(C)P([C]2[CH][CH][CH][CH]2)C(C)C
+"1,1'-Bis(di-t-butylphosphino)ferrocene",1,35,9,32,148,224,[Fe].Cl[Pd]Cl.CC(C)(C)P([C]1[CH][CH][CH][CH]1)C(C)(C)C.CC(C)(C)P([C]2[CH][CH][CH][CH]2)C(C)(C)C
+ TDMPP,0,82,2,103,69,256,COC1=C(P(C2=C(OC)C=CC=C2OC)C3=C(OC)C=CC=C3OC)C(OC)=CC=C1
+"Tris(2,4,6-trimethoxyphenyl)phosphine",0,69,3,61,114,247,COC1=C(P(C2=C(OC)C=C(OC)C=C2OC)C3=C(OC)C=C(OC)C=C3OC)C(OC)=CC(OC)=C1
+Tri(2-furyl)phosphine,0,66,3,184,15,268,P(C1=CC=CO1)(C2=CC=CO2)C3=CC=CO3
+Tris(o-methoxyphenyl)phosphine,0,32,1,105,73,210,COC1=CC=CC=C1P(C2=CC=CC=C2OC)C3=CC=CC=C3OC
+ Diphenyl(2-methoxyphenyl)-phosphine,0,36,1,222,5,264,COC1=CC=CC=C1P(C2=CC=CC=C2)C3=CC=CC=C3
+ tBuBrettPhos,0,50,14,22,169,255,CC(C)C1=CC(C(C)C)=CC(C(C)C)=C1C2=C(P(C(C)(C)C)C(C)(C)C)C(OC)=CC=C2OC
+ BrettPhos,0,26,4,62,80,171,CC(C)C1=CC(C(C)C)=C(C(C(C)C)=C1)C2=C(P(C3CCCCC3)C4CCCCC4)C(OC)=CC=C2OC
+2-(Diphenylphosphino)biphenyl,0,60,1,189,17,267,C1(C2=CC=CC=C2)=CC=CC=C1P(C3=CC=CC=C3)C4=CC=CC=C4
+Tri-1-naphthylphosphine,0,39,15,29,153,237,P(C1=C2C=CC=CC2=CC=C1)(C3=C4C=CC=CC4=CC=C3)C5=C6C=CC=CC6=CC=C5
+ Tri(o-tolyl)phosphine,0,36,20,22,173,251,CC1=CC=CC=C1P(C2=CC=CC=C2C)C3=CC=CC=C3C
+"Dicyclohexyl(2,4,6-triisopropylphenyl)-phosphine",0,32,17,24,160,233,CC(C1=C(P(C2CCCCC2)C3CCCCC3)C(C(C)C)=CC(C(C)C)=C1)C
+Sphos,0,18,1,64,51,134,COC1=CC=CC(OC)=C1C2=C(P(C3CCCCC3)C4CCCCC4)C=CC=C2
+RuPhos,0,6,0,35,14,56,CC(OC1=CC=CC(OC(C)C)=C1C2=CC=CC=C2P(C3CCCCC3)C4CCCCC4)C
+Cyclohexyldiphenylphosphine,0,55,2,170,35,262,P(C1=CC=CC=C1)(C2CCCCC2)C3=CC=CC=C3
+ Dicyclohexylphenylphosphine,0,44,2,140,47,233,P(C1CCCCC1)(C2CCCCC2)C3=CC=CC=C3
+Tricyclohexylphosphine,0,44,9,48,134,235,P(C1CCCCC1)(C2CCCCC2)C3CCCCC3
+Tribenzylphosphine,0,59,5,98,86,247,P(CC1=CC=CC=C1)(CC2=CC=CC=C2)CC3=CC=CC=C3
+Tris(4-methoxyphenyl)phosphine,0,43,1,187,32,264,COC1=CC=C(P(C2=CC=C(OC)C=C2)C3=CC=C(OC)C=C3)C=C1
+"Tris(3,5-dimethylphenyl)phosphine",0,32,1,222,15,270,CC1=CC(C)=CC(P(C2=CC(C)=CC(C)=C2)C3=CC(C)=CC(C)=C3)=C1
+"Tris(4-methoxy-3,5-dimethylphenyl)-phosphine",0,32,1,214,21,268,CC1=C(OC)C(C)=CC(P(C2=CC(C)=C(OC)C(C)=C2)C3=CC(C)=C(OC)C(C)=C3)=C1
+Triphenylphosphine,0,48,1,214,8,270,P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3
+"Tris[3,5-bis(trifluoromethyl)phenyl]-phosphine",0,60,4,189,6,260,FC(C1=CC(C(F)(F)F)=CC(P(C2=CC(C(F)(F)F)=CC(C(F)(F)F)=C2)C3=CC(C(F)(F)F)=CC(C(F)(F)F)=C3)=C1)(F)F
+ Tris(4-trifluoromethylphenyl)phosphine,0,59,2,199,6,267,FC(C1=CC=C(P(C2=CC=C(C(F)(F)F)C=C2)C3=CC=C(C(F)(F)F)C=C3)C=C1)(F)F
+ (Pentafluorophenyl)diphenylphosphine,0,54,2,191,27,275,FC1=C(F)C(F)=C(F)C(F)=C1P(C2=CC=CC=C2)C3=CC=CC=C3
+ Bis(pentafluorophenyl)phenylphosphine,0,19,6,80,94,199,FC1=C(F)C(F)=C(F)C(F)=C1P(C2=C(F)C(F)=C(F)C(F)=C2F)C3=CC=CC=C3
+Tris(pentafluorophenyl)phosphine,0,14,6,4,54,78,FC1=C(F)C(F)=C(F)C(F)=C1P(C2=C(F)C(F)=C(F)C(F)=C2F)C3=C(F)C(F)=C(F)C(F)=C3F
+Tri-tert-butylphosphine,0,3,1,87,105,196,CC(P(C(C)(C)C)C(C)(C)C)(C)C
+Di(1-adamantyl)-n-butylphosphine,0,16,1,107,100,224,CCCCP([C@]12CC3CC(C1)C[C@@H](C2)C3)[C@]45C[C@@H]6C[C@H](C4)C[C@H](C5)C6
+Di(1-adamantyl)benzylphosphine,0,11,1,120,111,243,[C@@H]12C[C@H](C[C@]3(P([C@]45CC6CC(C4)C[C@@H](C5)C6)CC7=CC=CC=C7)C2)C[C@H](C3)C1
+Tris(1-adamantyl)phosphine,0,0,0,70,167,236,[C@@H]12C[C@H](C[C@]3(C([C@@]45CC6CC(C4)C[C@H](C5)C6)[C@]78CC9CC(C7)C[C@@H](C8)C9)C2)C[C@H](C3)C1
