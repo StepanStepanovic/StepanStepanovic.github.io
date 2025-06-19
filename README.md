@@ -11,12 +11,18 @@ This is my personal webpage, built with HTML, CSS, and JavaScript, and hosted on
 ## File Structure
 
 public/ ├── css/ │ └── style.css # Styling for the webpage 
+
 		├── js/  │ └── script.js # JavaScript for interactivity 
+  
 		├── assets/ │ ├── img/ # Images (e.g., profile picture) 
+  
 					│ └── fonts/ # (Optional) Custom fonts
 └── html/ ├── index.html # Main page 
+
 		  ├── teaching.html # Teaching page 
+    
 		  ├── projects.html # Projects page 
+    
 		  └── about.html # About page
 
 ## How to Run
