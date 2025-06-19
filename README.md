@@ -10,7 +10,8 @@ This is my personal webpage, built with HTML, CSS, and JavaScript, and hosted on
 
 ## File Structure
 
-public/ ├── css/ │ └── style.css # Styling for the webpage 
+public/ ├── css/ 
+		│ └── style.css # Styling for the webpage 
 
 		├── js/  │ └── script.js # JavaScript for interactivity 
   
