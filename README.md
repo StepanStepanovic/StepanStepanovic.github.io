@@ -14,14 +14,14 @@ public/ ├── css/
 
 		├──└── style.css # Styling for the webpage 
 		
-                ├── js/  │ └── script.js # JavaScript for interactivity 
+            ├── js/  │ └── script.js # JavaScript for interactivity 
   
 		├── assets/ │ ├── img/ # Images (e.g., profile picture) 
   
 					│ └── fonts/ # (Optional) Custom fonts
 └── html/ 
 
-                  ├── index.html # Main page 
+              ├── index.html # Main page 
 
 		  ├── teaching.html # Teaching page 
     
