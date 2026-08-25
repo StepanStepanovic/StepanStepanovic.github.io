@@ -1,67 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Personal Webpage</title>
-        <!-- Link to CSS -->
-        <link rel="stylesheet" href="../css/style.css">
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-        <!-- Font Awesome for Social Icons -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KS6W749G1R"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  gtag('config', 'G-KS6W749G1R');
-</script>
-    
-    </head>
-    <body>
-        <div class="container">
-            <img src="../assets/img/profile.jpg" alt="Profile Picture" class="profile-image">
-            <div class="header">
-                <h1>Stepan Stepanovic</h1>
-                <!-- Social Links Section -->
-                <div class="social-links">
-                    <a href="https://github.com/StepanStepanovic" target="_blank" title="GitHub Profile">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/stepan-stepanovic/" target="_blank" title="LinkedIn Profile">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </div>
+    <title>Stepan Stepanovic | Bioinformatics & Computational Chemistry</title>
+    <meta
+        name="description"
+        content="Bioinformatician and computational chemist working in microbiome genomics, metabolomics, mass spectrometry, cheminformatics, and machine learning."
+    >
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        rel="stylesheet"
+    >
+
+    <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-KS6W749G1R"
+    ></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag("js", new Date());
+        gtag("config", "G-KS6W749G1R");
+    </script>
+
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+            color: #243247;
+            background: #f6f8fb;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 820px;
+            margin: 64px auto;
+            padding: 48px;
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 12px 35px rgba(35, 50, 71, 0.08);
+        }
+
+        .profile-image {
+            width: 135px;
+            height: 135px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #eef3f8;
+        }
+
+        h1 {
+            margin-bottom: 4px;
+            color: #17263a;
+            font-size: 2.2rem;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            margin: 4px 0 14px;
+            color: #607086;
+            font-size: 1.05rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 16px;
+            margin: 14px 0 24px;
+        }
+
+        .social-links a {
+            color: #53677f;
+            font-size: 1.35rem;
+            transition: color 0.2s ease;
+        }
+
+        .social-links a:hover {
+            color: #2864a3;
+        }
+
+        nav {
+            margin: 28px 0 34px;
+            padding: 16px 0;
+            border-top: 1px solid #e8edf3;
+            border-bottom: 1px solid #e8edf3;
+        }
+
+        nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 22px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        nav a,
+        .introduction a {
+            color: #2864a3;
+            text-decoration: none;
+        }
+
+        nav a:hover,
+        .introduction a:hover {
+            text-decoration: underline;
+        }
+
+        .introduction {
+            font-size: 1.05rem;
+        }
+
+        .expertise {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 28px;
+        }
+
+        .expertise span {
+            padding: 7px 13px;
+            color: #36516d;
+            background: #eef4fa;
+            border-radius: 18px;
+            font-size: 0.88rem;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px 12px;
+                padding: 28px 22px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            nav ul {
+                gap: 12px 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <img
+            src="../assets/img/profile.jpg"
+            alt="Stepan Stepanovic"
+            class="profile-image"
+        >
+
+        <header class="header">
+            <h1>Stepan Stepanovic</h1>
+
+            <p class="subtitle">
+                Bioinformatics · Computational Chemistry · Mass Spectrometry
+            </p>
+
+            <div class="social-links">
+                <a
+                    href="https://github.com/StepanStepanovic"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="GitHub profile"
+                    aria-label="GitHub profile"
+                >
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/stepan-stepanovic/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="LinkedIn profile"
+                    aria-label="LinkedIn profile"
+                >
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
             </div>
-            
-            <nav>
-                <ul>
-                    <!-- <li><a href="about.html">About</a></li> -->
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="publications.html">Publications</a></li>
-                    <li><a href="teaching.html">Teaching</a></li>
-                    <li><a href="outside.html">Outside of Lab</a></li>
-                </ul>
-            </nav>
+        </header>
 
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="teaching.html">Teaching</a></li>
+                <li><a href="outside.html">Outside the Lab</a></li>
+            </ul>
+        </nav>
 
-            <p> Hello! I’m Stepan Stepanovic, a Maître-assistant (Researcher/Lecturer) at the <a href="https://www.unige.ch" target="_blank">University of Geneva</a>, Switzerland. My work lies at the intersection of modeling, data science, chemistry, and LC-MS. I collaborate internationally with research groups, including the University of Groningen on in silico modeling for drug exposure and metabolism, as well as computational catalysis and toxicology with the University of Belgrade.
-                    
-<!--
-Hello! I’m Stepan Stepanovic, a Clinical Researcher at the 
-<a href="https://www.chuv.ch/fr/laboratoires/dl-home/le-departement-en-bref/unites/service-de-chimie-clinique/secteur-chromatographie-et-spectrometrie-de-masse" target="_blank">
-CHUV – Lausanne University Hospital
-</a>, Switzerland. 
-My work focuses on the development of LC-MS–based diagnostic workflows and bioinformatics pipelines, integrating data science, modeling, and chemistry. 
-I collaborate internationally with research groups, including the University of Groningen on in silico modeling of drug exposure and metabolism, and the University of Belgrade on computational catalysis and toxicology.
--->
-            
-        </div>
-        <!-- Link to JavaScript -->
-        <script src="../js/script.js"></script>
-    </body>
-    </html>
-    
+        <section class="introduction">
+            <p>
+                Hello! I’m Stepan Stepanovic, a computational chemist and
+                bioinformatician currently working at
+                <a
+                    href="https://www.hug.ch/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >Geneva University Hospitals (HUG)</a>.
+                I develop computational workflows for microbiome sequencing
+                data and integrate microbiome, diagnostic, and clinical data
+                using statistical analysis and machine learning.
+            </p>
+
+            <p>
+                Previously, I was a Maître-assistant at the
+                <a
+                    href="https://www.unige.ch/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >University of Geneva</a>,
+                where my research combined LC–MS-based pharmacometabolomics,
+                cheminformatics, and machine learning. My work included
+                xenobiotic metabolism, molecular property prediction,
+                mass-spectrometry data analysis, and computational approaches
+                to small-molecule characterization.
+            </p>
+
+            <div class="expertise" aria-label="Areas of expertise">
+                <span>Microbiome Genomics</span>
+                <span>LC–MS/MS</span>
+                <span>Pharmacometabolomics</span>
+                <span>Machine Learning</span>
+                <span>Cheminformatics</span>
+                <span>Computational Chemistry</span>
+                <span>Python &amp; R</span>
+            </div>
+        </section>
+    </main>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
